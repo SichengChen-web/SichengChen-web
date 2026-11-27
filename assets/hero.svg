@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Sicheng Chen — Computational Pharmacology, Bioinformatics, and AI for Science</title>
+  <desc id="desc">A deep navy academic banner with a restrained molecular network motif in blue and teal.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071827"/>
+      <stop offset="0.58" stop-color="#0A2840"/>
+      <stop offset="1" stop-color="#0B3A4C"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#45B8E8"/>
+      <stop offset="1" stop-color="#43D7C4"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#43D7C4" stop-opacity="0.19"/>
+      <stop offset="1" stop-color="#43D7C4" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#8CD8F1" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <filter id="soft-glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="300" rx="20" fill="url(#background)"/>
+  <rect width="1200" height="300" rx="20" fill="url(#grid)"/>
+  <ellipse cx="1000" cy="146" rx="260" ry="220" fill="url(#glow)"/>
+
+  <g opacity="0.72" fill="none" stroke-linecap="round">
+    <path d="M790 79L877 50L954 88L1040 53L1118 96" stroke="#4DB5DB" stroke-width="1.5"/>
+    <path d="M764 166L840 121L930 151L1017 118L1092 162L1152 128" stroke="#43D7C4" stroke-width="1.5"/>
+    <path d="M805 236L882 196L968 235L1050 194L1130 227" stroke="#4DB5DB" stroke-width="1.5"/>
+    <path d="M877 50L840 121L882 196M954 88L930 151L968 235M1040 53L1017 118L1050 194M1118 96L1092 162L1130 227" stroke="#9ADFF1" stroke-opacity="0.45" stroke-width="1"/>
+    <path d="M840 121L954 88M930 151L1040 53M1017 118L1118 96M882 196L1017 118M968 235L1092 162" stroke="#9ADFF1" stroke-opacity="0.22" stroke-width="1" stroke-dasharray="4 8"/>
+  </g>
+
+  <g fill="#0B2A40" stroke-width="2">
+    <circle cx="790" cy="79" r="7" stroke="#45B8E8"/>
+    <circle cx="877" cy="50" r="5" stroke="#75D6EF"/>
+    <circle cx="954" cy="88" r="9" stroke="#43D7C4" filter="url(#soft-glow)"/>
+    <circle cx="1040" cy="53" r="5" stroke="#75D6EF"/>
+    <circle cx="1118" cy="96" r="7" stroke="#45B8E8"/>
+    <circle cx="764" cy="166" r="5" stroke="#43D7C4"/>
+    <circle cx="840" cy="121" r="8" stroke="#45B8E8"/>
+    <circle cx="930" cy="151" r="5" stroke="#75D6EF"/>
+    <circle cx="1017" cy="118" r="10" stroke="#43D7C4" filter="url(#soft-glow)"/>
+    <circle cx="1092" cy="162" r="6" stroke="#75D6EF"/>
+    <circle cx="1152" cy="128" r="5" stroke="#43D7C4"/>
+    <circle cx="805" cy="236" r="6" stroke="#45B8E8"/>
+    <circle cx="882" cy="196" r="5" stroke="#75D6EF"/>
+    <circle cx="968" cy="235" r="8" stroke="#43D7C4"/>
+    <circle cx="1050" cy="194" r="5" stroke="#75D6EF"/>
+    <circle cx="1130" cy="227" r="7" stroke="#45B8E8"/>
+  </g>
+
+  <g font-family="Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <rect x="72" y="59" width="46" height="4" rx="2" fill="url(#accent)"/>
+    <text x="72" y="142" fill="#F4FAFC" font-size="64" font-weight="650" letter-spacing="-1.5">Sicheng Chen</text>
+    <text x="75" y="190" fill="#C7DEE8" font-size="22" font-weight="450" letter-spacing="0.2">Computational Pharmacology  ·  Bioinformatics  ·  AI for Science</text>
+    <text x="75" y="239" fill="#69D8D0" font-size="13" font-weight="600" letter-spacing="2.4">EVIDENCE  •  SYSTEMS  •  DISCOVERY</text>
+  </g>
+</svg>

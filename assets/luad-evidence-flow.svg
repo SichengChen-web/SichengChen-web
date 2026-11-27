@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">LUAD Target Evidence Dossier overview</title>
+  <desc id="desc">Transcriptomic and disease-association components flow through governed entity and observation layers into a provenance-aware, reproducible, non-ordinal evidence dossier.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071B2D"/>
+      <stop offset="1" stop-color="#0A3142"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4BBDE8"/>
+      <stop offset="1" stop-color="#47D6C4"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#B4ECF5" opacity="0.08"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10Z" fill="#58C9D5"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="360" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="20" fill="url(#dots)"/>
+
+  <g font-family="Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="60" y="57" fill="#EFF9FC" font-size="24" font-weight="650">From heterogeneous components to an auditable evidence landscape</text>
+    <text x="60" y="84" fill="#A8CAD7" font-size="14">LUAD TARGET EVIDENCE DOSSIER  /  CONCEPTUAL SUMMARY</text>
+
+    <g fill="#0B2B41" stroke="#2B7896" stroke-width="1.5">
+      <rect x="60" y="124" width="202" height="62" rx="12"/>
+      <rect x="60" y="198" width="202" height="62" rx="12"/>
+      <rect x="338" y="138" width="222" height="108" rx="14"/>
+      <rect x="636" y="138" width="222" height="108" rx="14"/>
+      <rect x="934" y="124" width="206" height="136" rx="14" stroke="#43CDBF"/>
+    </g>
+
+    <g fill="none" stroke="url(#line)" stroke-width="2" marker-end="url(#arrow)">
+      <path d="M263 155H304Q319 155 319 170V181Q319 192 338 192"/>
+      <path d="M263 229H304Q319 229 319 214V203Q319 192 338 192"/>
+      <path d="M560 192H636"/>
+      <path d="M858 192H934"/>
+    </g>
+
+    <g fill="#F1F9FC">
+      <text x="84" y="150" font-size="16" font-weight="650">Transcriptomic</text>
+      <text x="84" y="173" fill="#9FC5D3" font-size="13">component</text>
+      <text x="84" y="224" font-size="16" font-weight="650">Disease association</text>
+      <text x="84" y="247" fill="#9FC5D3" font-size="13">component</text>
+
+      <text x="449" y="171" text-anchor="middle" fill="#6EDBD2" font-size="29" font-weight="700">29,606</text>
+      <text x="449" y="199" text-anchor="middle" font-size="15" font-weight="600">governed EnsemblID</text>
+      <text x="449" y="220" text-anchor="middle" fill="#9FC5D3" font-size="13">entities</text>
+
+      <text x="747" y="171" text-anchor="middle" fill="#6EDBD2" font-size="29" font-weight="700">574</text>
+      <text x="747" y="199" text-anchor="middle" font-size="15" font-weight="600">curated biological</text>
+      <text x="747" y="220" text-anchor="middle" fill="#9FC5D3" font-size="13">observations</text>
+
+      <text x="1037" y="157" text-anchor="middle" font-size="16" font-weight="650">Evidence dossier</text>
+      <text x="1037" y="184" text-anchor="middle" fill="#6EDBD2" font-size="13">provenance-aware</text>
+      <text x="1037" y="205" text-anchor="middle" fill="#9FC5D3" font-size="13">missingness · dependency</text>
+      <text x="1037" y="226" text-anchor="middle" fill="#9FC5D3" font-size="13">conflict · reproducibility</text>
+    </g>
+
+    <line x1="60" y1="294" x2="1140" y2="294" stroke="#66C9D6" stroke-opacity="0.27"/>
+    <circle cx="394" cy="322" r="4" fill="#4BBDE8"/>
+    <circle cx="601" cy="322" r="4" fill="#47D6C4"/>
+    <circle cx="806" cy="322" r="4" fill="#4BBDE8"/>
+    <text x="412" y="327" fill="#B8D5DF" font-size="14" font-weight="600">NON-ORDINAL</text>
+    <text x="619" y="327" fill="#B8D5DF" font-size="14" font-weight="600">NO TARGET RANKING</text>
+    <text x="824" y="327" fill="#B8D5DF" font-size="14" font-weight="600">NO RECOMMENDATION</text>
+  </g>
+</svg>
